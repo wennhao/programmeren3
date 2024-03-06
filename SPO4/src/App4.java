@@ -6,7 +6,7 @@
  *                  Anders is het niet te doen in 1 les.
  */
 
-class App4 {
+class App4 { //monkey
     public static void main(String[] args) {
         // Lees ./input in zoals behandeld in Les 6: File I/O
 
