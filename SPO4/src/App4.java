@@ -39,14 +39,14 @@ class App4 { //monkey
         lijst.push("moe3");
         lijst.push("moe4");
 
-        lijst.print();
+//       lijst.print();
         lijst.push(1, "moe5");
         lijst.pop(9);
-        lijst.print();
+//        lijst.print();
         lijst.peek("moe2");
         lijst.peek("moe1");
 
-        lijst.print();
+      lijst.print();
 //        System.out.println("-----------");
 //        System.out.println(lijst.toString());
 

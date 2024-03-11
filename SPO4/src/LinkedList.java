@@ -26,6 +26,7 @@ public class LinkedList {
         }
         else {
             tail.setNext(toPush);
+            toPush.setPrevious(tail);//set previous reference of the new node of the current tail
             tail = toPush;
         }
         size++;
@@ -48,9 +49,11 @@ public class LinkedList {
             tail = toPush;
         } else if (index == 0) {
             toPush.setNext(head);
+            head.setPrevious(toPush);
             head = toPush;
         } else if (index == size) {
             tail.setNext(toPush);
+            toPush.setPrevious(tail);
             tail = toPush;
         } else {
             Node currentNode = head;
@@ -59,6 +62,8 @@ public class LinkedList {
                 currentNode = currentNode.getNext();
             }
             toPush.setNext(currentNode.getNext());
+            toPush.setPrevious(currentNode);//set the previous reference o the new node
+            currentNode.getNext().setPrevious(toPush);//update previous reference of the next node
             currentNode.setNext(toPush);
         }
         size++;
@@ -90,15 +95,25 @@ public class LinkedList {
             if (currentNode.getValue().equalsIgnoreCase(value)) {
                 if (previousNode == null) { //kijk of de list eigenlijk 1 node heeft zo ja dan hoef je geen links te verwijderen en kan je gewoon een node poppen en wordt de list empty.
                     head = currentNode.getNext();
+                    if(head != null){
+                        head.setPrevious(null);
+                    }
+                    else{
+                        tail = null;
+                    }
                     size--;
                 } else { //skip als het ware 1 node, dus je hebt een lsit van 1,2,3 dan laat je de link verwijzen naar 3 aka 2 wordt verwijderd.
                     previousNode.setNext(currentNode.getNext());
                     size--;
+                    if (currentNode.getNext() != null) { //kijk of je iets wilt poppen aan het einde van de linkedlist aka je hoeft geen nieuwe link meer te maken.
+                        currentNode.getNext().setPrevious(previousNode);
+                    }
+                    else{
+                        tail = previousNode;//update tail if the node to pop is the last node
+                        size--;
+                    }
                 }
-                if (currentNode.getNext() == null) { //kijk of je iets wilt poppen aan het einde van de linkedlist aka je hoeft geen nieuwe link meer te maken.
-                    tail = previousNode;
-                    size--;
-                }
+                
                 System.out.println(currentNode + " is verwijderd!");
                 return currentNode.getValue();
             }
@@ -143,11 +158,14 @@ public class LinkedList {
             head = currentNode.getNext();
 
         } else {
-            previousNode.setNext(currentNode.getNext());
-            if (previousNode.getNext() == null) {
-                tail = previousNode;
-            }
+            currentNode.getPrevious().setNext(currentNode.getNext());
         }
+           if(currentNode == tail){
+            tail = currentNode.getPrevious();
+           } else{
+            currentNode.getNext().setPrevious(currentNode.getPrevious());
+           }
+        
         //nimai goed nieuws, hij werkt wonderbaarlijk
         size--;
         return null;
@@ -183,12 +201,19 @@ public class LinkedList {
      *
      */
     public void print() {
-        Node current = head;
-        while (current != null) {
-            System.out.print(current.getValue()+" ");
-            current = current.getNext();
+        Node currentforward = head;
+        Node currentback = tail;
+  //      System.out.println("forward: ");
+        while (currentforward != null) {
+            System.out.print(currentforward.getValue()+" ");
+            currentforward = currentforward.getNext();
         }
-        System.out.println();
+//        System.out.println("back: ");
+        while(currentback != null){
+            System.out.println(currentback.getValue()+" ");
+            currentback = currentback.getPrevious();
+        }
+  //      System.out.println();
     }
     /**
      * String tostring(): Geeft een string met alle waardes in de lijst achter elkaar, met een nette newline op het eind.
