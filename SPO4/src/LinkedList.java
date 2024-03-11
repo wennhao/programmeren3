@@ -91,7 +91,7 @@ public class LinkedList {
         Node currentNode = head;
         Node previousNode = null;
 
-        while (head != null) {
+        while (currentNode != null) {
             if (currentNode.getValue().equalsIgnoreCase(value)) {
                 if (previousNode == null) { //kijk of de list eigenlijk 1 node heeft zo ja dan hoef je geen links te verwijderen en kan je gewoon een node poppen en wordt de list empty.
                     head = currentNode.getNext();
@@ -114,7 +114,7 @@ public class LinkedList {
                     }
                 }
                 
-                System.out.println(currentNode + " is verwijderd!");
+                System.out.println(currentNode + " has been popped, ouch!");
                 return currentNode.getValue();
             }
             previousNode = currentNode;
@@ -165,8 +165,7 @@ public class LinkedList {
            } else{
             currentNode.getNext().setPrevious(currentNode.getPrevious());
            }
-        
-        //nimai goed nieuws, hij werkt wonderbaarlijk
+
         size--;
         return null;
     }
@@ -209,11 +208,11 @@ public class LinkedList {
             currentforward = currentforward.getNext();
         }
 //        System.out.println("back: ");
-        while(currentback != null){
-            System.out.println(currentback.getValue()+" ");
-            currentback = currentback.getPrevious();
-        }
-  //      System.out.println();
+//        while(currentback != null){
+//            System.out.print(currentback.getValue()+" ");
+//            currentback = currentback.getPrevious();
+//        }
+        System.out.println();
     }
     /**
      * String tostring(): Geeft een string met alle waardes in de lijst achter elkaar, met een nette newline op het eind.
