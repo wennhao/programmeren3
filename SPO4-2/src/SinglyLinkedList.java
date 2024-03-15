@@ -17,6 +17,9 @@ public class SinglyLinkedList {
     }
 
     // Get/set methods (n/a)
+    public int getSize() {
+        return size;
+    }
 
     // Other methods:
     /*
