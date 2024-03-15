@@ -34,7 +34,6 @@ class App4 {
 
         // Maak een Linked List aan en stop alle woorden in de LinkedList in de juiste volgorde
         LinkedList list = new LinkedList();
-        list.pop(0);
         for (String word : splitString) {
             list.push(word);
         }
