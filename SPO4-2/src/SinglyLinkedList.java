@@ -1,4 +1,3 @@
-
 /*
  * In deze uitvoering van de Linked List is express geen gebruik gemaakt van de field previous in de class Node.
  */
@@ -152,6 +151,14 @@ public class SinglyLinkedList {
         }
         return "Not found";
     }
+
+    public String peekFirst() {
+        if (head == null) {
+            return null; // or some indication that the list is empty
+        }
+        return head.getValue();
+    }
+
 
     public void print() {
         Node current = head;

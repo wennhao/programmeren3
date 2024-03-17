@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="63ca00d5-4f6c-41bb-b239-f6c8274157f5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/SPO4/Programmeren3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SPO4-1/Programmeren3.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SPO4/SPO4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SPO4-1/SPO4.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SPO4/src/App4.java" beforeDir="false" afterPath="$PROJECT_DIR$/SPO4-1/src/App4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SPO4/src/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/SPO4-1/src/LinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SPO4/src/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/SPO4-1/src/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SPO4/src/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/SPO4-1/src/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPO4-2/src/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SPO4-2/src/App42.java" beforeDir="false" afterPath="$PROJECT_DIR$/SPO4-2/src/App42.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SPO4-2/src/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/SPO4-2/src/Queue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SPO4-2/src/SinglyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/SPO4-2/src/SinglyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SPO4-2/src/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/SPO4-2/src/Stack.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,24 +29,33 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
   <component name="ProjectId" id="2dJZKs3PDihA5AwTLWdZ25Uxglg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.App42.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "21",
-    "last_opened_file_path": "/Users/wenhaoyou/Documents/GitHub/programmeren3/SPO4_1/src",
-    "node.js.selected.package.tslint": "(autodetect)"
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/super/IdeaProjects/programmeren31/SPO4-2/src",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\super\IdeaProjects\programmeren31\SPO4-2\src" />
       <recent name="$PROJECT_DIR$/SPO4_1/src" />
     </key>
   </component>
@@ -66,6 +74,13 @@
       </method>
     </configuration>
   </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -74,7 +89,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1709728083800</updated>
+      <workItem from="1710719450932" duration="150000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
