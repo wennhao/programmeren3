@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="63ca00d5-4f6c-41bb-b239-f6c8274157f5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/SPO4-2/src/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SPO4-2/src/App42.java" beforeDir="false" afterPath="$PROJECT_DIR$/SPO4-2/src/App42.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SPO4-2/src/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/SPO4-2/src/Queue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SPO4-2/src/SinglyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/SPO4-2/src/SinglyLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SPO4-2/src/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/SPO4-2/src/Stack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,9 +25,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2dJZKs3PDihA5AwTLWdZ25Uxglg" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -48,6 +44,8 @@
     "jdk.selected.JAVA_MODULE": "21",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/super/IdeaProjects/programmeren31/SPO4-2/src",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
@@ -77,7 +75,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
+        <option value="jdk-21.0.1-openjdk-21.0.1-4caba194b151-9b16c6e2" />
       </set>
     </attachedChunks>
   </component>
@@ -90,6 +88,8 @@
       <option name="presentableId" value="Default" />
       <updated>1709728083800</updated>
       <workItem from="1710719450932" duration="150000" />
+      <workItem from="1710753508794" duration="142000" />
+      <workItem from="1710753707716" duration="392000" />
     </task>
     <servers />
   </component>
